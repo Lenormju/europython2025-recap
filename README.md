@@ -29,11 +29,23 @@ May be useful in some cases, still not convinced of its potential for global ado
 
 ### Tuesday morning : CI/CD with Python, K8s, TestContainers, AWS, Jenkins, ...
 
-TODO
+A total waste of time. I left as soon as possible.
+
+### Tuesday morning : Cleaner Code, Better Queries: SQLAlchemy, ORMs and asyncio
+
+Very well prepared, clear, and insightful.
+
+Repo : https://github.com/rhythm-patel/sqlalchemy-workshop
+
+Course : https://aelsayed95.github.io/sqlalchemy-wkshop/
 
 ### Tuesday afternoon : Packaging Summit
 
-TODO
+Super interesting ! Too many things going too fast to take notes myself.
+
+Shared notes : https://hackmd.io/-RZmb68eSsyCTk-aTZ8Q4g
+
+PyCon US notes : https://hackmd.io/3AUJd0GkRFKHclfzULowTw
 
 ## Conferences
 
@@ -41,18 +53,36 @@ Planning :
 
 * Wednesday
   * 09h30 - You don’t have to be a compiler engineer to work on Python
+    * interesting, but the talk's message was quite simple : "there are many ways to contribute, and they may be simpler than you expect"
   * 10h45 - Design Pressure: The Invisible Hand That Shapes Your Code
-  * 10h45 - Teamwork makes the dream work
+    * @Julien : replay at Kaizen
+  * 10h45 - ~~Teamwork makes the dream work~~
   * 10h45 - Myths and fairy tales around Python performance
+    * very interesting, made clear what are the problems caused by Python's extreme dynamicity
+    * at the end, Antonio Cuni presented what he thinks is the way towards a more efficient Python, and this bold direction he started to follow by implementing a proof-of-concept language `SPy`
   * 11h40 - Inside the Black Box: The Anatomy of Virtual Environments
+    * interesting, mostly the comparison between CPython's and uv's venvs
+    * just a description of what they contain, no real insight on their role in the current ecosystem
   * 12h20 - Building my own (accurate!) Spotify Wrapped
+    * great talk ! actually delivers what its title promised : an actually good and insightful Spotify Wrapped, without much work (for European citizens only, through RGPD)
+    * @Julien : replay at Kaizen for the Data team ?
   * 12h50 - [poster] Exploring LLM latency
+    * intéressant, mais je ne sais pas quoi en tirer
   * 13h50 - Godot & Python: open source in game development
-  * 13h50 - How to contribute to Python docs in your own language
-  * 14h30 - Typing at scale: statically type-checking a large codebase
+    * déçevant, juste une démo technique de communication (via socket) avec un serveur qui fait du OpenCV
+  * 13h50 - ~~How to contribute to Python docs in your own language~~
+  * 14h30 - ~~Typing at scale: statically type-checking a large codebase~~
+    * @JULIEN : replay (personnel ?)
   * 14h30 - Bridging the gap: Viewing your project through a downstream packager's lens
-  * 14h30 - The Evolution of Advanced Python Monitoring
+    * une collection de bonnes pratiques pour faciliter la vie des packagers, mais souvent en contradiction avec les bonnes pratiques de dev, donc y'a pas de bonne solution
+    * surtout pertinent pour les OSS maintainers qui ont leurs projets packagés downstream
+  * 14h30 - ~~The Evolution of Advanced Python Monitoring~~
   * 15h25 - Type Hints in Real-World Projects: Maintenance & Improvement
+    * la salle était pleine, j'ai été obligé de regarde rle livestream
+    * nouvelle features en 3.13 : `TypeGuard` et `TypeIs`, backportées dans `typing_extensions`
+    * nouvelle syntaxe pour `list`, `dict`, `Optional`, ... (upgrade par `Ruff` ou `pyupgrade`)
+    * éviter raw `# type: ignore` et rajouter `[attr-defined]`, et `typing.Any`
+    * cf son talk à l'EuroPython 2024, pour les décorateurs penser à `ParamSpec` et `Concatenate`
   * 16h05 - The FastAPI-Postgres stack you've been waiting for
   * 16h45 - Building a large SaaS AI product with Python: The tale of three ecosystems
   * 17h30 - Python quiz
@@ -80,3 +110,5 @@ Friday:
   * 10h10 - ...
 
 ## Sprints
+
+TODO
