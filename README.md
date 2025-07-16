@@ -66,6 +66,17 @@ Planning :
   * 11h25 - Testing the Tests - Assess and Improve Your Python Testing Code
   * 12h05 - Fixtures meets parameters: Writing efficient, elegant and reusable tests
   * 12h45 - Turbocharge your Python test suite today!
-  * ...
+  * 13h15 - [poster] Preserving Culture with Python: AI plays Ayo, a Traditional Nigerian Game
+  * 14h15 - Pydantic, Everywhere, All at Once
+  * 14h15 - Snapshot Testing: A New Era of Reliability
+  * 14h55 - Good Practices for Testing Web User Interfaces
+  * 14h55 - Continuous Documentation: basics and advanced techniques
+  * 15h50 - End to End with Testcontainers and Playwright
+  * 16h30 - Behind the scenes of FastAPI and friends for developers and builders
+  * 17h15 - Lightning talks
+
+Friday:
+  * 09h00 - The Boom of Generative AI: realities, promises and awkward situations
+  * 10h10 - ...
 
 ## Sprints
