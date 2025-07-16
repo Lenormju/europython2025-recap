@@ -69,22 +69,27 @@ Planning :
   * 12h50 - [poster] Exploring LLM latency
     * intéressant, mais je ne sais pas quoi en tirer
   * 13h50 - Godot & Python: open source in game development
-    * déçevant, juste une démo technique de communication (via socket) avec un serveur qui fait du OpenCV
+    * disappointing, just a technical demo of the communication (through `socket`) with a Python server doing OpenCV
   * 13h50 - ~~How to contribute to Python docs in your own language~~
   * 14h30 - ~~Typing at scale: statically type-checking a large codebase~~
-    * @JULIEN : replay (personnel ?)
+    * @JULIEN : replay (for myself only ?)
   * 14h30 - Bridging the gap: Viewing your project through a downstream packager's lens
-    * une collection de bonnes pratiques pour faciliter la vie des packagers, mais souvent en contradiction avec les bonnes pratiques de dev, donc y'a pas de bonne solution
-    * surtout pertinent pour les OSS maintainers qui ont leurs projets packagés downstream
+    * a collection of good practices to ease the job of packagers, but they are often contradicting the development good practices, so there is no globally satisfying solution
+    * mostly relevant for OSS maintainers who have their projects packaged downstream
   * 14h30 - ~~The Evolution of Advanced Python Monitoring~~
   * 15h25 - Type Hints in Real-World Projects: Maintenance & Improvement
-    * la salle était pleine, j'ai été obligé de regarde rle livestream
-    * nouvelle features en 3.13 : `TypeGuard` et `TypeIs`, backportées dans `typing_extensions`
-    * nouvelle syntaxe pour `list`, `dict`, `Optional`, ... (upgrade par `Ruff` ou `pyupgrade`)
-    * éviter raw `# type: ignore` et rajouter `[attr-defined]`, et `typing.Any`
-    * cf son talk à l'EuroPython 2024, pour les décorateurs penser à `ParamSpec` et `Concatenate`
+    * I was late so the room was full, I had to watch the livestream
+    * new features in 3.13 : `TypeGuard` and `TypeIs`, backported into `typing_extensions`
+    * new syntax for `list`, `dict`, `Optional`, ... (upgrade by `Ruff` or `pyupgrade`)
+    * avoid raw `# type: ignore` but add `[attr-defined]` (or other), and avoid `typing.Any`
+    * see also its talk at EuroPython 2024, for the decorators better use `ParamSpec` and `Concatenate`
   * 16h05 - The FastAPI-Postgres stack you've been waiting for
+    * https://github.com/geldata/gel-python client for the Gel DB (ex: EdgeDB), actually Postgres
+    * no, I was not waiting for it
+    * a bit too commercial and trying to hype for it
+    * said it is not an ORM, it is actually partly an ORM, and sketchily tried to evade the question about it
   * 16h45 - Building a large SaaS AI product with Python: The tale of three ecosystems
+    * slow to start
   * 17h30 - Python quiz
   * 17h45 - Lightning talks
 
