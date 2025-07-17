@@ -109,14 +109,26 @@ Planning :
     * 5 Es : tests exist, are executed, enough for coverage, efficient and effective
     * differences between 2 mutation testing libraries : `mutmut` and `Cosmic Ray`
   * 12h05 - Fixtures meets parameters: Writing efficient, elegant and reusable tests
-    * ...
+    * one key hack in order to be able to parametrize fixture
+    * applying `pytest.parametrize` on a function requesting the `pytest.RequestFixture` allow to do introspection and parametrize fixtures
+    * did not know about hexagonal architecture nor contract testing
   * 12h45 - Turbocharge your Python test suite today!
+    * interesting
+    * some actual useful advices on how to speed up tests (apart from fixture scope) : `pytest -n auto` (for local) and `pytest-split` (for distributed)
   * 13h15 - [poster] Preserving Culture with Python: AI plays Ayo, a Traditional Nigerian Game
+    * meh
   * 14h15 - Pydantic, Everywhere, All at Once
-  * 14h15 - Snapshot Testing: A New Era of Reliability
+    * a very good sequel to Hynek's "Design pressure" talk
+    * either use a shared Model (with caveats), one for each interface (verbose), or use inheritance (difficult)
+  * 14h15 - ~~Snapshot Testing: A New Era of Reliability~~
   * 14h55 - Good Practices for Testing Web User Interfaces
-  * 14h55 - Continuous Documentation: basics and advanced techniques
+    * trainwreck : no rythm, no charisma, low on content, and managed to only last 15 minutes
+    * just : test only the part that you want to test, for the rest either mock or do with an API (setup/teardown)
+    * also, take care of fixtures' scopes
+  * 14h55 - ~~Continuous Documentation: basics and advanced techniques~~
   * 15h50 - End to End with Testcontainers and Playwright
+    * very good
+    * @Julien : replay at Kaizen ?
   * 16h30 - Behind the scenes of FastAPI and friends for developers and builders
   * 17h15 - Lightning talks
 
@@ -135,7 +147,17 @@ Friday:
   * 11h45 - Navigating the mesh: Istio for Python applications
   * 12h25 - ~~Beyond the Code: Manipulating Bytecode and Building Community~~
   * 12h25 - Python Config That Will Give You Chills (In a Good Way, I Promise!)
-  * 13h55 - ...
+  * 13h55 - When in practice is Python performance an issue? Facts and myths.
+  * 13h55 - The art of yield
+  * 14h35 - You Came to a Python Conference. Now, Go Do a PR Review!
+  * 14h35 - Broken \_\_slots\_\_ are a silent performance killer—Let's fix them!
+    * did not attend, but looked at the slides, the content seems very good
+    * https://programme.europython.eu/media/europython-2025/submissions/DCZCJP/resources/europython_l5KqgBd.pdf
+  * 14h35 - Zero-Drama Upgrades: Real-World Tactics for Major Python Migrations
+  * 15h15 - "Python: the Documentary" screening and Q&A
+  * 17h00 - Lightning talks
+  * 17h30 - Conference Closing
+  * 17h50 - Sprint Orientation
 
 ## Sprints
 
