@@ -91,15 +91,25 @@ Planning :
   * 16h45 - Building a large SaaS AI product with Python: The tale of three ecosystems
     * slow to start
   * 17h30 - Python quiz
+    * some really hard questions !
   * 17h45 - Lightning talks
 
 * Thursday
   * 09h20 - Why it took 4 years to get a lock files specification
+    * very interesting, but more about the process and the struggles than actionnable ideas
   * 10h30 - A new safe external debugger interface for CPython
-  * 10h30 - Intuition vs. Reality: Surprising Truths in Python Performance
-  * 11h25 - Choosing Between Free Threading and Async
+    * interesting
+    * difficult to follow the talk due to the talking speed, that we warned about
+    * when we will migrate to 3.14 I think I'll start using it
+  * 10h30 - ~~Intuition vs. Reality: Surprising Truths in Python Performance~~
+  * 11h25 - ~~Choosing Between Free Threading and Async~~
   * 11h25 - Testing the Tests - Assess and Improve Your Python Testing Code
+    * OK
+    * the examples were too simple, so the advices did not seem to match actual problems
+    * 5 Es : tests exist, are executed, enough for coverage, efficient and effective
+    * differences between 2 mutation testing libraries : `mutmut` and `Cosmic Ray`
   * 12h05 - Fixtures meets parameters: Writing efficient, elegant and reusable tests
+    * ...
   * 12h45 - Turbocharge your Python test suite today!
   * 13h15 - [poster] Preserving Culture with Python: AI plays Ayo, a Traditional Nigerian Game
   * 14h15 - Pydantic, Everywhere, All at Once
@@ -112,7 +122,20 @@ Planning :
 
 Friday:
   * 09h00 - The Boom of Generative AI: realities, promises and awkward situations
-  * 10h10 - ...
+  * 10h10 - What comes after Rust in the Python ecosystem?
+  * 10h10 - It's All About Time ⏰ - What developers need to know about time
+  * 11h05 - Building a NoGIL Load Balancer in Python in 30 minutes
+  * 11h05 - ~~Efficient Caching in Python: From Local to External Solutions~~
+    * @Julien : replay at Kaizen
+  * 11h05 - Your Cookiecutter Is Wrong
+  * 11h05 - ~~Explaining the 5 types of database and how to choose between them~~
+    * @Julien : replay at Kaizen
+  * 11h45 - What does = do?
+  * 11h45 - Django and HTMX: Patterns to Success
+  * 11h45 - Navigating the mesh: Istio for Python applications
+  * 12h25 - ~~Beyond the Code: Manipulating Bytecode and Building Community~~
+  * 12h25 - Python Config That Will Give You Chills (In a Good Way, I Promise!)
+  * 13h55 - ...
 
 ## Sprints
 
