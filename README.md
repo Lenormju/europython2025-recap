@@ -90,6 +90,8 @@ Planning :
     * said it is not an ORM, it is actually partly an ORM, and sketchily tried to evade the question about it
   * 16h45 - Building a large SaaS AI product with Python: The tale of three ecosystems
     * slow to start
+    * they seem to have over-engineered from the start (not having deadlines ?)
+    * the talk's message was not clear to me
   * 17h30 - Python quiz
     * some really hard questions !
   * 17h45 - Lightning talks
@@ -167,7 +169,10 @@ Friday:
     * did not attend, but looked at the slides, the presentation seemed very good
     * https://programme.europython.eu/media/europython-2025/submissions/DCZCJP/resources/europython_l5KqgBd.pdf
   * 14h35 - Zero-Drama Upgrades: Real-World Tactics for Major Python Migrations
+    * disappointed, was actually only about Pydantic, no generalisation
   * 15h15 - "Python: the Documentary" screening and Q&A
+    * interesting to have perspective on Python 2 to 3 transition (cf my own talk), but mostly on female inclusion in the community
+    * the full version will drop on August 28th
   * 17h00 - Lightning talks
   * 17h30 - Conference Closing
   * 17h50 - Sprint Orientation
