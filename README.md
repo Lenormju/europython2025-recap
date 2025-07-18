@@ -130,28 +130,41 @@ Planning :
     * very good
     * @Julien : replay at Kaizen ?
   * 16h30 - Behind the scenes of FastAPI and friends for developers and builders
+    * good overview of (design) principles to have a good experience creating and maintaining open-source products
+    * @Julien : replay at Kaizen ?
   * 17h15 - Lightning talks
 
 Friday:
   * 09h00 - The Boom of Generative AI: realities, promises and awkward situations
-  * 10h10 - What comes after Rust in the Python ecosystem?
+    * boring, just a description of the landscape, anti-predictions (already happened)
+    * not a good keynote
+  * 10h10 - ~~What comes after Rust in the Python ecosystem?~~
   * 10h10 - It's All About Time ⏰ - What developers need to know about time
-  * 11h05 - Building a NoGIL Load Balancer in Python in 30 minutes
+    * very good !
+    * used Marp (with JS+CSS hackery) for dynamic slides (time passing)
+  * 11h05 - ~~Building a NoGIL Load Balancer in Python in 30 minutes~~
   * 11h05 - ~~Efficient Caching in Python: From Local to External Solutions~~
-    * @Julien : replay at Kaizen
+    * @Julien : replay at Kaizen ?
   * 11h05 - Your Cookiecutter Is Wrong
+    * a good explanation of the problems caused by the PYTHONPATH, a an explanation of the usual 2 solutions : flat and src-layout
   * 11h05 - ~~Explaining the 5 types of database and how to choose between them~~
-    * @Julien : replay at Kaizen
-  * 11h45 - What does = do?
-  * 11h45 - Django and HTMX: Patterns to Success
+    * @Julien : replay at Kaizen ?
+  * 11h45 - ~~What does = do?~~
+  * 11h45 - ~~Django and HTMX: Patterns to Success~~
   * 11h45 - Navigating the mesh: Istio for Python applications
+    * was  not "advanced" at all (as indicated by the talk metadata), just an introduction to Mesh tooling and use-cases
+    * the examples were trivial
+    * there was too much information density, which was not explained, so it felt rushed
   * 12h25 - ~~Beyond the Code: Manipulating Bytecode and Building Community~~
   * 12h25 - Python Config That Will Give You Chills (In a Good Way, I Promise!)
+    * very good talk, about how to use `pydantic-setting` and `pydantic.Annotated` for type-safe, polymorphic, dependency injection
+    * @Julien : replay at Kaizen
   * 13h55 - When in practice is Python performance an issue? Facts and myths.
-  * 13h55 - The art of yield
+  * 13h55 - ~~The art of yield~~
+    * @Julien : replay at Kaizen
   * 14h35 - You Came to a Python Conference. Now, Go Do a PR Review!
-  * 14h35 - Broken \_\_slots\_\_ are a silent performance killer—Let's fix them!
-    * did not attend, but looked at the slides, the content seems very good
+  * 14h35 - ~~Broken \_\_slots\_\_ are a silent performance killer—Let's fix them!~~
+    * did not attend, but looked at the slides, the presentation seemed very good
     * https://programme.europython.eu/media/europython-2025/submissions/DCZCJP/resources/europython_l5KqgBd.pdf
   * 14h35 - Zero-Drama Upgrades: Real-World Tactics for Major Python Migrations
   * 15h15 - "Python: the Documentary" screening and Q&A
